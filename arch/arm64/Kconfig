@@ -362,6 +362,16 @@ config ARCH_MSM8994_V1_TLBI_WA
 	  [39:38] bits of VA are tied to zero and due to which TLBI
 	  operations with VA or ASID will not work.
 
+config MACH_XIAOMI_SANTONI
+	bool "Enable Support for XIAOMI Redmi 4X (Santoni)"
+	depends on ARCH_MSM8940
+	default n
+
+config MACH_XIAOMI_SANTONI_TREBLE
+	bool "Enable Support Treble XIAOMI Redmi 4X Santoni"
+	depends on MACH_XIAOMI_SANTONI
+	default n	  
+
 endmenu
 
 menu "Bus support"
