@@ -62,7 +62,7 @@
 &soc {
 	gen-vkey1 {
 		compatible = "qcom,gen-vkeys";
-		label = "ft5x06_720p";
+		label = "ft5x06_ts";
 		qcom,disp-maxx = <720>;
 		qcom,disp-maxy = <1280>;
 		qcom,panel-maxx = <720>;
